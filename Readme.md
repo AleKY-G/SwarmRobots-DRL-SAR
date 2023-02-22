@@ -2,7 +2,7 @@
 
 Explore the application of Deep Reinforcement Learning techniques to Swarm Robotics, focusing on defining stimulating environments and suitable communication patterns that can enhance the performance of the swarm in Search and Rescue settings. 
 
-
+> Paper that summarize our work: [Communication strategies in Swarm Robots Search and Rescue](/Communication%20strategies%20in%20Swarm%20Robots%20Search%20and%20Rescue.pdf)
 
 To train with PPO our team used the ML-Agents Toolkit package distributed by Unity Technologies. The package has official documentation on how to initialise the training environment, how to structure the folders and how to test the trained models. (https://github.com/Unity-Technologies/ml-agents). 
 
@@ -32,6 +32,10 @@ To train with PPO our team used the ML-Agents Toolkit package distributed by Uni
     The first parameter is the config file location, normally inside the config folder. 
     
     The run-id represents the name of the folder where data and the final model will be saved.
+    
+
+![SwarmRobot-train](https://user-images.githubusercontent.com/79710064/220659393-6d0961c8-f9cc-42af-96ff-1477d1961423.gif)
+
 
 ## How to Test 
 
@@ -42,6 +46,10 @@ To train with PPO our team used the ML-Agents Toolkit package distributed by Uni
 - Build the unity environment with the 4 test scenes - Toy, Small, Medium and Big Maze.
 
 - Run the built environment. The test will start and data will be saved inside the built environment folder.
+
+
+![SwarmRobots-Test](https://user-images.githubusercontent.com/79710064/220659305-ce0e4f46-5009-449c-a24f-e952c72f39b3.gif)
+
 
 ## Graphs
 
