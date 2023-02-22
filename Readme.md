@@ -54,3 +54,10 @@ To train with PPO our team used the ML-Agents Toolkit package distributed by Uni
 ## Graphs
 
 In [Data](Data/) folder you can find useful python scripts to plot the data obtained during the tests.
+
+
+## Team
+
+- [__Alessandro Barbiero__](https://github.com/AlessandroBarbiero)
+- [__Giovanni Giacometti__](https://github.com/GiovanniGiacometti)
+- [__Toader Carausu__](https://github.com/tcarausu)
